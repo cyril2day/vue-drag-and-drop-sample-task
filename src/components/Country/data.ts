@@ -18,7 +18,13 @@ export const Countries: Country[] = [
     name: 'Philippines',
     slug: 'philippines',
     cities: [4, 5, 6],
-  }
+  },
+  {
+    id: 4,
+    name: 'Malaysia',
+    slug: 'malaysia',
+    cities: [4, 5, 6],
+  },
 ]
 
 export const Cities: City[] = [
@@ -35,4 +41,8 @@ export const Cities: City[] = [
     { id: 8, name: 'Chicago' },
     { id: 9, name: 'Miami' },
     { id: 10, name: 'Los Angeles' },
+    // Malaysia
+    { id: 11, name: 'Kuala Lumpur' },
+    { id: 12, name: 'Malacca' },
+    { id: 13, name: 'Kuching' },
 ]
