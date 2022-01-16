@@ -1,7 +1,7 @@
 <script setup lang='ts'>
 import { onBeforeMount, ref } from 'vue';
 import { Cities, Countries } from './Country/data';
-import CountryComponent from './Country/index.vue'
+import Country from './Country/index.vue'
 import { City, HandleFound } from './Country/types';
 import { startDrag } from './Country/index'
 
@@ -21,7 +21,7 @@ onBeforeMount(() => {
 <template>
   <div class='wrapper'>
     <div class='wrapper__countries'>
-      <country-component
+      <country
         v-for='country in Countries'
         :key='country.id'
         :country='country'
