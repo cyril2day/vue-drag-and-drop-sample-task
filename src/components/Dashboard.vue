@@ -57,11 +57,13 @@ onBeforeMount(() => {
 
 .wrapper__countries {
   flex-grow: 10;
+  flex-wrap: wrap;
   display: flex;
   border: 1px solid;
   margin-right: 20px;
+  padding: 10px;
   background: whitesmoke;
-  justify-content: center;
+  justify-content: space-between;
   width: 987px;
 }
 
