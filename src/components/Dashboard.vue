@@ -49,7 +49,7 @@ onBeforeMount(() => {
 
 <style lang='scss'>
 .wrapper {
-  height: 750px;
+  height: 810px;;
   width: 1250px;
   display: flex;
   margin: 0 auto;
@@ -65,6 +65,7 @@ onBeforeMount(() => {
   background: whitesmoke;
   justify-content: space-between;
   width: 987px;
+  overflow: auto;
 }
 
 .wrapper__cities {
@@ -73,6 +74,7 @@ onBeforeMount(() => {
   border: 1px solid #000;
   justify-content: center;
   width: 244px;
+  overflow: auto;
 }
 
 .cities__item {
