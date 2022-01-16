@@ -62,9 +62,10 @@ const onDrop = (event: any) => {
   flex: 0 0 295px;
   margin: 10px;
   height: 370px;
-  border: 1px solid;
   border-radius: 5px;
   background: ghostwhite;
+  box-shadow: 0 0 40px #ccc;
+
 }
 
 .city__header {
