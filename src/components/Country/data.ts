@@ -23,7 +23,7 @@ export const Countries: Country[] = [
     id: 4,
     name: 'Malaysia',
     slug: 'malaysia',
-    cities: [4, 5, 6],
+    cities: [11, 12, 13],
   },
 ]
 
