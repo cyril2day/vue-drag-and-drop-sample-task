@@ -59,6 +59,7 @@ const onDrop = (event: any) => {
 
 <style lang='scss'>
 .city__drop-area {
+  flex: 0 0 295px;
   margin: 10px;
   border: 1px solid;
   border-radius: 5px;

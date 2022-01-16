@@ -13,7 +13,8 @@ const handleFound: HandleFound = (city) => {
 }
 
 onBeforeMount(() => {
-  cityList.value = Cities
+  const random = () => Math.random() - 0.5
+  cityList.value = Cities.sort(random)
 })
 </script>
 
@@ -48,8 +49,8 @@ onBeforeMount(() => {
 
 <style lang='scss'>
 .wrapper {
-  height: 800px;
-  width: 1200px;
+  height: 750px;
+  width: 1250px;
   display: flex;
   margin: 0 auto;
 }
@@ -60,16 +61,16 @@ onBeforeMount(() => {
   border: 1px solid;
   margin-right: 20px;
   background: whitesmoke;
+  justify-content: center;
+  width: 987px;
 }
 
 .wrapper__cities {
   flex-grow: 2;
   background: whitesmoke;
   border: 1px solid #000;
-}
-
-.city__drop-area {
-  flex: 0 0 295px;
+  justify-content: center;
+  width: 244px;
 }
 
 .cities__item {
